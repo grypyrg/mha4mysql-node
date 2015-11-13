@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
+* Fri Nov 13 2015 Kenny Gryp <kenny.gryp@percona.com>
+- Version 0.57 with ipv6 and storage engine independent
+
 * Sun May 31 2015 Yoshinori Matsunobu <Yoshinori.Matsunobu@gmail.com>
 - (Note: All changelogs are written here: http://code.google.com/p/mysql-master-ha/wiki/ReleaseNotes )
 - Version 0.57

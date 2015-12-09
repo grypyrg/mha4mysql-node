@@ -1,7 +1,7 @@
 Summary: Master High Availability Manager and Tools for MySQL, Node Package
 Name: mha4mysql-node
 Version: 0.57
-Release: 0%{?dist}
+Release: 2%{?dist}
 License: GPL v2
 Vendor: DeNA Co.,Ltd.
 Group: Utilities
@@ -55,6 +55,12 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
+* Wed Dec 9 2015 Kenny Gryp <kenny.gryp@percona.com>
+- Version 0.57 with ipv6, storage engine independent and super_read_only support
+
+* Fri Nov 13 2015 Kenny Gryp <kenny.gryp@percona.com>
+- Version 0.57 with ipv6 and storage engine independent
+
 * Sun May 31 2015 Yoshinori Matsunobu <Yoshinori.Matsunobu@gmail.com>
 - (Note: All changelogs are written here: http://code.google.com/p/mysql-master-ha/wiki/ReleaseNotes )
 - Version 0.57
